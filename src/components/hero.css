@@ -1,0 +1,44 @@
+.main-img {
+  width: 250px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-container p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.title-1 {
+  padding-right: 55px;
+}
+.title-2 {
+  padding-left: 55px;
+}
+.title-J {
+  margin: 20px;
+}
+@media screen and (min-width: 768px) {
+  .hero-container {
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .main-img {
+    width: 500px;
+  }
+  .title-container p {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .text-detail p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}

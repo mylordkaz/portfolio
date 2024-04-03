@@ -1,13 +1,21 @@
+import { Element } from 'react-scroll';
 import './App.css';
 import Header from './components/Header';
-import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import ExpertiseSection from './components/ExpertiseSection';
+import ProjectSection from './components/ProjectSection';
 
 function App() {
   return (
     <>
       <Header />
-
-      <h1>Welcome to my portfolio</h1>
+      <HeroSection />
+      <Element name="projects">
+        <ProjectSection />
+      </Element>
+      <Element name="expertise">
+        <ExpertiseSection />
+      </Element>
     </>
   );
 }
