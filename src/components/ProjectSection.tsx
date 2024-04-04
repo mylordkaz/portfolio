@@ -5,30 +5,32 @@ import './project.css';
 export default function ProjectSection() {
   return (
     <>
-      <div>
+      <div className="project-title">
         <h2>Projects</h2>
       </div>
 
       <div className="project-container">
         <img src={strive} alt="" />
-        <div>
-          <h3>Strive</h3>
+        <div className="project-text">
+          <h2>Strive</h2>
 
           <p>
             Strive is a modern, user-focused personnel management solution that
             lets you easily manage your most valuable resource: your team.
           </p>
         </div>
-        <button>view project</button>
+        <div className="btn-container">
+          <button>view project</button>
+        </div>
       </div>
       <div className="project-container">
         <img src={crypt} alt="" />
-        <div>
-          <h3>Cryptrack</h3>
+        <div className="project-text">
+          <h2>Cryptrack</h2>
 
           <p>Enabling users to track their cryptocurrency investments</p>
+          <button>view project</button>
         </div>
-        <button>view project</button>
       </div>
     </>
   );

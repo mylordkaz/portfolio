@@ -1,6 +1,19 @@
 .project-container img {
   width: 220px;
 }
+.project-title {
+  text-align: start;
+}
+.project-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
 .project-container {
   margin-top: 4rem;
+}
+.project-text {
+  text-align: left;
+}
+.btn-container {
+  text-align: end;
 }
