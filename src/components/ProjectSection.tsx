@@ -19,9 +19,9 @@ export default function ProjectSection() {
             lets you easily manage your most valuable resource: your team.
           </p>
         </div>
-        <div className="btn-container">
-          <button>view project</button>
-        </div>
+      </div>
+      <div className="btn-container">
+        <button>view project</button>
       </div>
       <div className="project-container">
         <img src={crypt} alt="" />
@@ -30,9 +30,9 @@ export default function ProjectSection() {
 
           <p>Enabling users to track their cryptocurrency investments</p>
         </div>
-        <div className="btn-container">
-          <button>view project</button>
-        </div>
+      </div>
+      <div className="btn-container">
+        <button>view project</button>
       </div>
     </>
   );

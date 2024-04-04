@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <HeroSection />
-      <Element name="projects">
+      <Element className="project-section" name="projects">
         <ProjectSection />
       </Element>
       <Element name="expertise">

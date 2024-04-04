@@ -32,7 +32,7 @@
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 600;
   /* line-height: 1em; */
   max-width: 100%;
   min-width: 140px;
@@ -43,4 +43,27 @@
 }
 .btn-container button:active {
   transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .project-title {
+    margin-top: 50px;
+  }
+  .project-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12rem;
+  }
+  .project-text {
+    text-align: center;
+    width: 45%;
+  }
+  .project-text p {
+    text-align: center;
+  }
+  .btn-container {
+    width: 40%;
+    margin-left: 38rem;
+  }
 }

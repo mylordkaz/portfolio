@@ -51,7 +51,7 @@ export default function Navbar() {
         ) : (
           <nav className="desk-nav">
             <Link
-              to="about"
+              to="projects"
               smooth={true}
               duration={1000}
               onClick={() => setOpened(false)}
@@ -59,7 +59,7 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
-              to="about"
+              to="contact"
               smooth={true}
               duration={1000}
               onClick={() => setOpened(false)}
