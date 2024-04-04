@@ -6,7 +6,7 @@ export default function ProjectSection() {
   return (
     <>
       <div className="project-title">
-        <h2>Projects</h2>
+        <h1>Projects</h1>
       </div>
 
       <div className="project-container">
@@ -29,6 +29,8 @@ export default function ProjectSection() {
           <h2>Cryptrack</h2>
 
           <p>Enabling users to track their cryptocurrency investments</p>
+        </div>
+        <div className="btn-container">
           <button>view project</button>
         </div>
       </div>

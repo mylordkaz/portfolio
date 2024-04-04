@@ -4,16 +4,43 @@
 .project-title {
   text-align: start;
 }
-.project-title h2 {
-  font-size: 2rem;
-  font-weight: 600;
-}
 .project-container {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 .project-text {
   text-align: left;
 }
+.project-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.project-text p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .btn-container {
-  text-align: end;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.btn-container button {
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-weight: 500;
+  /* line-height: 1em; */
+  max-width: 100%;
+  min-width: 140px;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  cursor: pointer;
+}
+.btn-container button:active {
+  transform: scale(1.1);
 }
