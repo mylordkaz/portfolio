@@ -32,7 +32,7 @@ export default function ProjectSection() {
         </div>
       </div>
       <div className="btn-container">
-        <button>view projects</button>
+        <button>view project</button>
       </div>
     </>
   );
