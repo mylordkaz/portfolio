@@ -30,6 +30,14 @@ export default function Navbar() {
                   Projects
                 </Link>
                 <Link
+                  to="expertise"
+                  smooth={true}
+                  duration={1000}
+                  onClick={() => setOpened(false)}
+                >
+                  Expertise
+                </Link>
+                <Link
                   to="contact"
                   smooth={true}
                   duration={1000}
@@ -57,6 +65,14 @@ export default function Navbar() {
               onClick={() => setOpened(false)}
             >
               Projects
+            </Link>
+            <Link
+              to="expertise"
+              smooth={true}
+              duration={1000}
+              onClick={() => setOpened(false)}
+            >
+              Expertise
             </Link>
             <Link
               to="contact"
