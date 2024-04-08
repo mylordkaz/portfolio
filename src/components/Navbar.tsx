@@ -75,20 +75,20 @@ export default function Navbar() {
               Expertise
             </Link>
             <Link
-              to="contact"
-              smooth={true}
-              duration={1000}
-              onClick={() => setOpened(false)}
-            >
-              Contact
-            </Link>
-            <Link
               to="about"
               smooth={true}
               duration={1000}
               onClick={() => setOpened(false)}
             >
               About
+            </Link>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={1000}
+              onClick={() => setOpened(false)}
+            >
+              Contact
             </Link>
           </nav>
         )}

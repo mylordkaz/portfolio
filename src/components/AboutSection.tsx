@@ -26,9 +26,9 @@ export default function About() {
             </p>
 
             <p>
-              "When it comes to my hobbies, I'm passionate about motorsports and
-              mechanics. During my spare time, you'll often find me tinkering in
-              my garage."
+              "When it comes to my hobbies, <br /> I'm passionate about
+              motorsports and mechanics. During my spare time, you'll often find
+              me tinkering in my garage."
             </p>
           </div>
         </div>
