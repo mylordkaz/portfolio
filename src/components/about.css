@@ -17,10 +17,19 @@
   margin: 2rem;
   font-style: italic;
 }
-.text-container {
+.p1 {
+  margin-bottom: 100px;
+}
+.description-container {
   margin-top: 50px;
   display: flex;
+  flex-direction: column;
   gap: 4rem;
+}
+.horizontal-bar {
+  height: 2px; /* Adjust the thickness */
+  background-color: #000; /* Color of the bar */
+  margin: 20px 0; /* Space above and below the bar */
 }
 @media screen and (min-width: 768px) {
   .description-container {
@@ -31,5 +40,8 @@
   }
   .description-container p {
     width: 50%;
+  }
+  .horizontal-bar {
+    display: none;
   }
 }
