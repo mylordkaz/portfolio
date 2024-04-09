@@ -1,0 +1,20 @@
+.contact {
+  margin: 50px;
+  padding-top: 30px;
+}
+.contact-title {
+  text-align: start;
+  margin-bottom: 100px;
+}
+.contact-link a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.github-icon {
+  width: 50px;
+}
+.linkedin-icon {
+  width: 50px;
+}

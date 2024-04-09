@@ -9,7 +9,7 @@ export default function About() {
         </div>
 
         <div className="presentation-container">
-          <img src={me} alt="" />
+          <img src={me} alt="photo portrait of me" />
           <h2>I'm a Full-Stack Software Engineer based in Japan.</h2>
           <p className="p1">
             "After gaining valuable skills in management and customer service

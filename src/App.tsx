@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import ExpertiseSection from './components/ExpertiseSection';
 import ProjectSection from './components/ProjectSection';
 import About from './components/AboutSection';
+import Contact from './components/ContactSection';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </Element>
       <Element name="about">
         <About />
+      </Element>
+      <Element name="contact">
+        <Contact />
       </Element>
     </>
   );
