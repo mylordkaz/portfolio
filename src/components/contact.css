@@ -32,4 +32,7 @@
     flex-direction: row;
     justify-content: space-around;
   }
+  .contact-title p {
+    margin-left: 40px;
+  }
 }
