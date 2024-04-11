@@ -6,6 +6,7 @@ import ExpertiseSection from './components/ExpertiseSection';
 import ProjectSection from './components/ProjectSection';
 import About from './components/AboutSection';
 import Contact from './components/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Element name="contact">
         <Contact />
       </Element>
+      <Footer />
     </>
   );
 }

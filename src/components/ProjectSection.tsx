@@ -21,7 +21,9 @@ export default function ProjectSection() {
         </div>
       </div>
       <div className="btn-container">
-        <button>view project</button>
+        <button>
+          <a href="https://strive-management.com/">view project</a>
+        </button>
       </div>
       <div className="project-container">
         <img src={crypt} alt="" />
@@ -32,7 +34,9 @@ export default function ProjectSection() {
         </div>
       </div>
       <div className="btn-container">
-        <button>view project</button>
+        <button>
+          <a href="https://mycryptrack.netlify.app/">view project</a>
+        </button>
       </div>
     </>
   );

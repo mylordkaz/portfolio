@@ -49,6 +49,9 @@
 .btn-container button:active {
   transform: scale(1.1);
 }
+.btn-container a {
+  color: #ffffff;
+}
 
 @media screen and (min-width: 768px) {
   .project-title {
