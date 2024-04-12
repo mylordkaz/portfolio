@@ -57,11 +57,24 @@
   .project-title {
     margin-top: 50px;
   }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 100px;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 16px;
+    box-shadow: rgba(91, 66, 243, 0.09) 0px 2px 1px,
+      rgba(91, 66, 243, 0.09) 0px 4px 2px, rgba(175, 64, 255, 0.09) 0px 8px 4px,
+      rgba(175, 64, 255, 0.09) 0px 16px 8px,
+      rgba(0, 221, 235, 0.09) 0px 32px 16px;
+  }
   .project-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
   .project-text {
     text-align: center;
@@ -72,6 +85,6 @@
   }
   .btn-container {
     width: 40%;
-    margin-left: 38rem;
+    align-self: flex-end;
   }
 }
