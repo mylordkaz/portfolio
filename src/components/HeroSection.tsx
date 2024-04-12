@@ -9,8 +9,7 @@ export default function HeroSection() {
 
         <div className="text-container">
           <div className="title-container">
-            <p className="title-1">Software</p>
-            <p className="title-2">Engineer</p>
+            <p className="title-1">Software Engineer</p>
           </div>
           <span className="title-J">ソフトウェアエンジニア</span>
           <div className="text-detail">
