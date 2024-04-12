@@ -36,4 +36,7 @@
     width: 30px;
     height: auto;
   }
+  .exp-container {
+    box-shadow: none;
+  }
 }
