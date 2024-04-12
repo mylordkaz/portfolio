@@ -15,15 +15,15 @@ export default function About() {
             "After gaining valuable skills in management and customer service
             during my career in hospitality. <br /> I've transitioned to
             software engineering, driven by a passion for technology and its
-            potential impact."
+            potential impact. <br /> I am very interested about Blockchain and
+            Web3 in general."
           </p>
           <div className="horizontal-bar"></div>
           <div className="description-container">
             <p>
               "I love learning and embracing new challenges. I'm always seeking
               to improve my programming skills and learn new languages that I
-              find both interesting and powerful. I have a great interest for
-              blockchain and web3 in general."
+              find both interesting and powerful."
             </p>
             <div className="horizontal-bar"></div>
             <p>

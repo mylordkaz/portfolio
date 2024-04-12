@@ -11,13 +11,16 @@
   text-align: left;
 }
 .project-text h2 {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 .project-text p {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .btn-container {
@@ -37,7 +40,7 @@
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 400;
   /* line-height: 1em; */
   max-width: 100%;
   min-width: 140px;
@@ -57,11 +60,24 @@
   .project-title {
     margin-top: 50px;
   }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 100px;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 16px;
+    box-shadow: rgba(91, 66, 243, 0.09) 0px 2px 1px,
+      rgba(91, 66, 243, 0.09) 0px 4px 2px, rgba(175, 64, 255, 0.09) 0px 8px 4px,
+      rgba(175, 64, 255, 0.09) 0px 16px 8px,
+      rgba(0, 221, 235, 0.09) 0px 32px 16px;
+  }
   .project-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
   .project-text {
     text-align: center;
@@ -72,6 +88,6 @@
   }
   .btn-container {
     width: 40%;
-    margin-left: 38rem;
+    align-self: flex-end;
   }
 }

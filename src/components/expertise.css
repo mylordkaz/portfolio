@@ -30,10 +30,13 @@
 @media screen and (min-width: 768px) {
   .expertise {
     margin: 50px;
-    padding-top: 30px;
+    padding-top: 80px;
   }
   .icon-container svg {
     width: 30px;
     height: auto;
+  }
+  .exp-container {
+    box-shadow: none;
   }
 }

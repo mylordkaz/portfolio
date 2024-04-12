@@ -13,18 +13,20 @@
     rgba(91, 66, 243, 0.1) 0px 4px 2px, rgba(175, 64, 255, 0.1) 0px 8px 4px,
     rgba(175, 64, 255, 0.1) 0px 16px 8px, rgba(0, 221, 235, 0.1) 0px 32px 16px;
 }
-.presentation-container h3 {
-  margin: 2rem;
-  font-style: italic;
+.presentation-container h2 {
+  margin: 1.6rem;
+  font-weight: 500;
 }
 .p1 {
   margin-bottom: 100px;
+  font-style: italic;
 }
 .description-container {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  font-style: italic;
 }
 .horizontal-bar {
   height: 2px; /* Adjust the thickness */
@@ -32,6 +34,12 @@
   margin: 20px 0; /* Space above and below the bar */
 }
 @media screen and (min-width: 768px) {
+  .about {
+    padding-top: 80px;
+  }
+  .about p {
+    font-size: 1.1rem;
+  }
   .description-container {
     margin-top: 50px;
     display: flex;
@@ -43,5 +51,9 @@
   }
   .horizontal-bar {
     display: none;
+  }
+  .p1 {
+    margin-top: 60px;
+    margin-bottom: 80px;
   }
 }
