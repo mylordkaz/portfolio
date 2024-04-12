@@ -34,7 +34,10 @@ export default function ProjectSection() {
           <div className="project-text">
             <h2>Cryptrack</h2>
 
-            <p>Enabling users to track their cryptocurrency investments</p>
+            <p>
+              Enabling users to track their cryptocurrency investments, with
+              real time coins prices.
+            </p>
           </div>
         </div>
         <div className="btn-container">
