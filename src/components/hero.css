@@ -11,14 +11,14 @@
   font-weight: 500;
   line-height: 1.2;
 }
-.title-1 {
-  padding-right: 55px;
-}
-.title-2 {
-  padding-left: 55px;
-}
+
 .title-J {
   margin: 20px;
+  font-family: 'Klee One', cursive;
+  font-size: 1.6rem;
+}
+.text-detail {
+  font-size: 1.2rem;
 }
 .hero-container {
   margin-top: 2rem;

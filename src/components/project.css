@@ -11,13 +11,16 @@
   text-align: left;
 }
 .project-text h2 {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 .project-text p {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .btn-container {
@@ -37,7 +40,7 @@
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 400;
   /* line-height: 1em; */
   max-width: 100%;
   min-width: 140px;
