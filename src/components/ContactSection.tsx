@@ -7,7 +7,6 @@ export default function Contact() {
       <div className="contact">
         <div className="contact-title">
           <h1>Contact.</h1>
-
           <div className="contact-link">
             <a href="https://github.com/mylordkaz" target="_blank">
               <img className="github-icon" src={github} alt="" />
