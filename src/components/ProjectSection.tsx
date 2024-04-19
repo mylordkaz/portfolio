@@ -42,7 +42,7 @@ export default function ProjectSection() {
         </div>
         <div className="btn-container">
           <button>
-            <a href="https://mycryptrack.netlify.app/">view project</a>
+            <a href="https://cryptrack-client.onrender.com">view project</a>
           </button>
         </div>
       </div>
