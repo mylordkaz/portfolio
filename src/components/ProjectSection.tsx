@@ -24,7 +24,7 @@ export default function ProjectSection() {
         </div>
         <div className="btn-container">
           <button>
-            <a href="https://strive-management.com/">view project</a>
+            <a href="https://strive-frontend-bja7.onrender.com">view project</a>
           </button>
         </div>
       </div>
