@@ -11,7 +11,7 @@ export default function Contact() {
           <div className="contact-link">
             <a href="https://github.com/mylordkaz" target="_blank">
               <img className="github-icon" src={github} alt="" />
-              Github
+              GitHub
             </a>
             <a
               href="https://www.linkedin.com/in/kevin-timsiline/"
