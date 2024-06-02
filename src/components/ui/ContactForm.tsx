@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+import './contactForm.css';
 
 export default function ContactFormulaire() {
   const [name, setName] = useState('');
@@ -39,9 +40,9 @@ export default function ContactFormulaire() {
   };
   return (
     <div className="contactForm">
-      <h2>Contact form</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
+      <h3>Contact form</h3>
+      <form className="form" onSubmit={handleSubmit}>
+        <div className="input">
           <label>Name:</label>
           <input
             type="text"
@@ -50,7 +51,7 @@ export default function ContactFormulaire() {
             required
           />
         </div>
-        <div>
+        <div className="input">
           <label>Email:</label>
           <input
             type="email"
@@ -59,7 +60,7 @@ export default function ContactFormulaire() {
             required
           />
         </div>
-        <div>
+        <div className="input">
           <label>Message:</label>
           <textarea
             value={message}
@@ -67,8 +68,10 @@ export default function ContactFormulaire() {
             required
           />
         </div>
-        <button type="submit">Send</button>
-        {status && <p>{status}</p>}
+        <div className="btn-container">
+          <button type="submit">Send</button>
+          {status && <p>{status}</p>}
+        </div>
       </form>
     </div>
   );
