@@ -1,6 +1,7 @@
 import github from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
 import './contact.css';
+import ContactFormulaire from './ui/ContactForm';
 export default function Contact() {
   return (
     <>
@@ -22,6 +23,7 @@ export default function Contact() {
             </a>
           </div>
         </div>
+        <ContactFormulaire />
       </div>
     </>
   );
